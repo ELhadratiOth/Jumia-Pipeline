@@ -1,4 +1,4 @@
-# Jumia Scraper and Data Loader
+# Jumia Pipeline
 
 This project involves scraping product data from Jumia using BeautifulSoup and Python, and then loading that data into a PostgreSQL database.
 
