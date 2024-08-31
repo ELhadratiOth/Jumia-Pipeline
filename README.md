@@ -11,11 +11,9 @@ This project involves scraping product data from Jumia using BeautifulSoup and P
    ```bash
    python scrapper.py
 Load Data into PostgreSQL:
+   - **File:** `csv2postgresql.py`
+   - **Description:** Reads the CSV file created by the scraper and loads the data into a PostgreSQL database. Configuration settings are managed via an .ini file for easy customization.
 
-File: csv2postgresql.py
-Description: Reads the CSV file created by the scraper and loads the data into a PostgreSQL database. Configuration settings are managed via an .ini file for easy customization.
-bash
-Copier le code
 ```bash
 python csv2postgresql.py
 ```
