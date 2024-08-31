@@ -21,10 +21,10 @@ This project involves scraping product data from Jumia using BeautifulSoup and P
 python csv2postgresql.py
 ```
 
-**Configuration:**
+**For Configuration:**
 - An **.ini**  file is provided for configuring the database connection and search parameters. Make sure to update it with your PostgreSQL connection details and any product search parameters you want to use.
 
-**Setup:**
+**To Setup:**
 Install Required Packages: Ensure you have all required Python packages installed. You can install them using:
 ```bash
 pip install -r requirements.txt
