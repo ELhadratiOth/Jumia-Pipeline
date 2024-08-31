@@ -16,7 +16,10 @@ File: csv2postgresql.py
 Description: Reads the CSV file created by the scraper and loads the data into a PostgreSQL database. Configuration settings are managed via an .ini file for easy customization.
 bash
 Copier le code
+```bash
 python csv2postgresql.py
+```
+
 Configuration
 An .ini file is provided for configuring the database connection and search parameters. Make sure to update it with your PostgreSQL connection details and any product search parameters you want to use.
 Setup
