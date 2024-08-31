@@ -29,10 +29,7 @@ Install Required Packages: Ensure you have all required Python packages installe
 ```bash
 pip install -r requirements.txt
 ```
+##
 ![Alt text](Img/PipelineSchema.png)
 
-Verify that the CSV file path and PostgreSQL connection details are correctly specified in the .ini file.
-css
-Copier le code
 
-This Markdown code provides a structured overview of the project, including instructions for
