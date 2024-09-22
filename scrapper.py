@@ -29,7 +29,8 @@ for i in range(10):
                     dic['product_link'] = "https://www.jumia.ma" + prod.find('a' , attrs={'class' : 'core'})['href']
  
                     if not any( elem.lower() in dic['product_name'].lower() for elem in cleaning_patterns ) and dic['product_price']> 500  :
-                              products.append(dic)        
+                              products.append(dic)
+                                                
 
 # print(products[-1])
 
